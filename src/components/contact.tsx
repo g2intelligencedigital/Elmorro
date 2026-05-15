@@ -104,7 +104,7 @@ export function Contact() {
           >
             <iframe
               title="Ubicación de Autoservicio El Morro en Google Maps"
-              src="https://maps.google.com/maps?q=Av.+Cristo+Rey+Mza.+464+Casa+26,+D5700+San+Luis,+Argentina&z=17&hl=es&output=embed"
+              src="https://maps.google.com/maps?q=-33.2819553,-66.3000769&z=17&hl=es&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -113,7 +113,7 @@ export function Contact() {
               referrerPolicy="no-referrer-when-downgrade"
             />
             <a
-              href="https://www.google.com/maps/search/?api=1&query=Av.+Cristo+Rey+Mza.+464+Casa+26,+D5700+San+Luis,+Argentina"
+              href="https://maps.app.goo.gl/UgkBaZQAgUoSBBVDA"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Abrir en Google Maps"

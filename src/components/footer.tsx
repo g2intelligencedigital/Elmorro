@@ -113,14 +113,12 @@ export function Footer() {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-2 text-xs opacity-50">
           <p>© {new Date().getFullYear()} Autoservicio El Morro. Todos los derechos reservados.</p>
           <p>
-            Built with{" "}
+            Powered by{" "}
             <a
-              href="https://tododeia.com"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:g2intelligencedigital@gmail.com"
               className="hover:opacity-100 underline"
             >
-              Claude Web Builder by Tododeia
+              G2 Intelligence
             </a>
           </p>
         </div>

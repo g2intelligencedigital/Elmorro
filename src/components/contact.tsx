@@ -100,17 +100,24 @@ export function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1], delay: 0.1 }}
-            className="rounded-2xl overflow-hidden shadow-xl h-80 lg:h-96 border border-border"
+            className="rounded-2xl overflow-hidden shadow-xl h-80 lg:h-96 border border-border relative group"
           >
             <iframe
               title="Ubicación de Autoservicio El Morro en Google Maps"
-              src="https://maps.google.com/maps?q=-33.2819553,-66.3000769&z=17&hl=es&output=embed"
+              src="https://maps.google.com/maps?q=Av.+Cristo+Rey+Mza.+464+Casa+26,+D5700+San+Luis,+Argentina&z=17&hl=es&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+            />
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Av.+Cristo+Rey+Mza.+464+Casa+26,+D5700+San+Luis,+Argentina"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Abrir en Google Maps"
+              className="absolute inset-0"
             />
           </motion.div>
         </div>

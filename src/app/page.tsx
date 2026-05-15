@@ -1,4 +1,3 @@
-import { CartProvider } from "@/lib/cart-context";
 import { Navbar } from "@/components/navbar";
 import { Hero } from "@/components/hero";
 import { Features } from "@/components/features";
@@ -13,17 +12,15 @@ export default function Home() {
   const products = getActiveProducts();
 
   return (
-    <CartProvider>
-      <main>
-        <Navbar />
-        <Hero />
-        <Features />
-        <ProductCatalog products={products} />
-        <StoreSection />
-        <Testimonials />
-        <Contact />
-        <Footer />
-      </main>
-    </CartProvider>
+    <main>
+      <Navbar />
+      <Hero />
+      <Features />
+      <ProductCatalog products={products} />
+      <StoreSection />
+      <Testimonials />
+      <Contact />
+      <Footer />
+    </main>
   );
 }
